@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Anime girl gif",
+  "description": "This extension get a random cute anime girl gif for relaxing",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "http://api.giphy.com/"
+  ]
+}
